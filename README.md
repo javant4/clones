@@ -25,7 +25,7 @@ Reddit Clone Images:
 * **Home**
 ![alt text](https://github.com/javant4/clones/blob/main/github-images/reddit-home.PNG?raw=true)
 
-* **Drop Downs**
+* **Drop Downs/Navigation**
 ![alt text](https://github.com/javant4/clones/blob/main/github-images/reddit-drawers.PNG?raw=true)
 
 * **Community**
