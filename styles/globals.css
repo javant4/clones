@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icon {
+    @apply h-9 w-6 lg:w-9 cursor-pointer rounded-sm lg:p-1 lg:hover:bg-gray-100;
+  }
+
+  .voteButtons {
+    @apply h-6 w-6 rounded-md p-1 hover:bg-gray-200;
+  }
+
+  .postButtons {
+    @apply flex cursor-pointer items-center space-x-1 rounded-sm p-2 text-sm font-semibold hover:bg-gray-100;
+  }
+
+  .commentBlogForm {
+    @apply block mb-5;
+  }
+  .commentBlogSpanForm {
+    @apply text-gray-700;
+  }
+  .commentBlogInput {
+    @apply shadow border rounded py-2 px-3 mt-1 block w-full ring-yellow-500 outline-none focus:ring;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
